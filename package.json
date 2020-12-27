@@ -1,0 +1,33 @@
+{
+  "name": "mysleekdesigns",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slacey2020/testing1220.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "simon lacey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slacey2020/testing1220/issues"
+  },
+  "homepage": "https://github.com/slacey2020/testing1220#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "reset-css": "^5.0.1"
+  }
+}
