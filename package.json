@@ -4,7 +4,10 @@
   "description": "portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",
+    "build-js": "browserify --include-path js js/app.js > build/js/script.min.js",
+    "build": "npm run build-css && npm run build-js",
+    "server": "cd build && python -m SimpleHTTPServer 8000"
   },
   "repository": {
     "type": "git",
